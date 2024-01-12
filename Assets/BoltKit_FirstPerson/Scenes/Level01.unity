@@ -2985,6 +2985,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3581783022031336912, guid: da6274111082abb42a8e4ee97787690b, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581783022031336912, guid: da6274111082abb42a8e4ee97787690b, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581783022031336912, guid: da6274111082abb42a8e4ee97787690b, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1018327449}
+    - target: {fileID: 3581783022031336912, guid: da6274111082abb42a8e4ee97787690b, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1018327449}
     - target: {fileID: 3581783022031336918, guid: da6274111082abb42a8e4ee97787690b, type: 3}
       propertyPath: m_Name
       value: KillFloor
@@ -4296,6 +4312,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78b919e5d461d430d93059cfd5bbd37b, type: 3}
+--- !u!1 &1018327449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1499456063369362192, guid: 78b919e5d461d430d93059cfd5bbd37b, type: 3}
+  m_PrefabInstance: {fileID: 1018327448}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1029954625 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 63fb86c466ee8f449adf0bd5c8badbdc, type: 3}
