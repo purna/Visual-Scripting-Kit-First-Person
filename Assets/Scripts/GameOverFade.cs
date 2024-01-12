@@ -60,7 +60,18 @@ public class GameOverFade : MonoBehaviour
             }
         }
 
-        void OnDestroy()
+        public void OnGameOverFade(bool gameStatus)
+        {
+
+            if (gameStatus == true)
+            {
+                m_CanvasGroup.gameObject.SetActive(true);
+                m_GameOver = true;
+                m_Won = evt.Win;
+            }
+        }
+
+    void OnDestroy()
         {
             EventManager.RemoveListener<GameOverEvent>(OnGameOver);
         }
